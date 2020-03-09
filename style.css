@@ -3,13 +3,7 @@ body {
   margin:0;
   z-index:0;
   background-color:white;
-  overflow:hidden;
-}
-
-#grid1 {
-  z-index:-1;
-  position:fixed;
-  filter:grayscale();
+  overflow:visible;
 }
 
 #container {
@@ -24,6 +18,7 @@ body {
   background-size:contain;
   background-position:center center;
   background-repeat:no-repeat;
+  mix-blend-mode:difference;
   z-index:5;
 }
 
@@ -41,6 +36,7 @@ body {
   background-size:contain;
   background-repeat:no-repeat;
   background-position:center center;
+    mix-blend-mode:difference;
   z-index:4;
 }
 
@@ -49,6 +45,7 @@ body {
   background-size:contain;
   background-position:Center center;
   background-repeat:no-repeat;
+    mix-blend-mode:difference;
   z-index:5;
 
 }
@@ -58,6 +55,7 @@ body {
   background-size:contain;
   background-position:center center;
   background-repeat:no-repeat;
+    mix-blend-mode:difference;
   z-index:5;
 }
 
@@ -66,6 +64,7 @@ body {
   background-position:center center;
   background-size:contain;
   background-repeat:no-repeat;
+    mix-blend-mode:difference;
   z-index:4;
 }
 
@@ -75,6 +74,7 @@ body {
   background-size:contain;
   background-repeat:no-repeat;
   background-position:center center;
+    mix-blend-mode:difference;
   z-index:4;
 }
 
@@ -83,6 +83,7 @@ body {
   background-size:contain;
   background-position:center center;
   background-repeat:no-repeat;
+    mix-blend-mode:difference;
   z-index:4;
 }
 
@@ -101,6 +102,43 @@ body {
   background-size:contain;
   background-position:center center;
   background-repeat:no-repeat;
+  mix-blend-mode:difference;
+  z-index:5;
+}
+
+.s {
+  background-image:url('images/s.jpg');
+  background-size:contain;
+  background-position:center center;
+  background-repeat:no-repeat;
+
+  z-index:5;
+}
+
+.t {
+  background-image:url('images/t.jpg');
+  background-size:contain;
+  background-position:center center;
+  background-repeat:no-repeat;
+
+  z-index:5;
+}
+
+.o {
+  background-image:url('images/o.jpg');
+  background-size:contain;
+  background-position:center center;
+  background-repeat:no-repeat;
+
+  z-index:5;
+}
+
+.p {
+  background-image:url('images/p.jpg');
+  background-size:contain;
+  background-position:center center;
+  background-repeat:no-repeat;
+
   z-index:5;
 }
 
@@ -138,12 +176,12 @@ body {
       animation-duration: 3s;
     }
 
-    .e:hover {
-       animation-name: rotate;
-       animation-iteration-count: infinite;
-       animation-direction: alternate;
-       animation-duration: 3s;
-     }
+  .e:hover {
+     animation-name: rotate;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-duration: 3s;
+   }
 
      .f:hover {
         animation-name: rotate;
@@ -152,30 +190,30 @@ body {
         animation-duration: 3s;
       }
 
-      .g:hover {
+    .g:hover {
+       animation-name: rotate;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+       animation-duration: 3s;
+     }
+
+     .h:hover {
+        animation-name: rotate;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 3s;
+      }
+
+      .i:hover {
          animation-name: rotate;
          animation-iteration-count: infinite;
          animation-direction: alternate;
          animation-duration: 3s;
        }
 
-       .h:hover {
+       .j:hover {
           animation-name: rotate;
           animation-iteration-count: infinite;
           animation-direction: alternate;
           animation-duration: 3s;
         }
-
-        .i:hover {
-           animation-name: rotate;
-           animation-iteration-count: infinite;
-           animation-direction: alternate;
-           animation-duration: 3s;
-         }
-
-         .j:hover {
-            animation-name: rotate;
-            animation-iteration-count: infinite;
-            animation-direction: alternate;
-            animation-duration: 3s;
-          }
