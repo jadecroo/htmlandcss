@@ -10,14 +10,6 @@ body {
   z-index:-1;
   position:fixed;
   filter:grayscale();
-
-}
-
-#grid2 {
-  transform: rotateX(35)
-  z-index:-1;
-  position:fixed;
-  mix-blend-mode: multiply;
 }
 
 #container {
@@ -111,3 +103,79 @@ body {
   background-repeat:no-repeat;
   z-index:5;
 }
+
+@keyframes rotate {
+   0% {transform: rotateZ(0deg);}
+   50% {transform: rotateZ(360deg);}
+   100% {transform: rotateZ(0deg);}
+
+ }
+.a:hover {
+   animation-name: rotate;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-duration: 3s;
+ }
+
+ .b:hover {
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 3s;
+  }
+
+  .c:hover {
+     animation-name: rotate;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-duration: 3s;
+   }
+
+   .d:hover {
+      animation-name: rotate;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-duration: 3s;
+    }
+
+    .e:hover {
+       animation-name: rotate;
+       animation-iteration-count: infinite;
+       animation-direction: alternate;
+       animation-duration: 3s;
+     }
+
+     .f:hover {
+        animation-name: rotate;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-duration: 3s;
+      }
+
+      .g:hover {
+         animation-name: rotate;
+         animation-iteration-count: infinite;
+         animation-direction: alternate;
+         animation-duration: 3s;
+       }
+
+       .h:hover {
+          animation-name: rotate;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+          animation-duration: 3s;
+        }
+
+        .i:hover {
+           animation-name: rotate;
+           animation-iteration-count: infinite;
+           animation-direction: alternate;
+           animation-duration: 3s;
+         }
+
+         .j:hover {
+            animation-name: rotate;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-duration: 3s;
+          }
